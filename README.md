@@ -18,6 +18,7 @@ Here are some ideas to get you started:
 # Hi there, I'm Ali Sina (AliSinaDevelo) 👋
 
 ![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=gruvbox)
+[![AliSina's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AliSinaDevelo)](https://github.com/AliSinaDevelo/github-readme-activity-graph)
 
 <!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
 
