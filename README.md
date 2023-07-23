@@ -1,4 +1,4 @@
-### Hi there 👋
+
 
 <!--
 **AliSinaDevelo/AliSinaDevelo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -16,6 +16,8 @@ Here are some ideas to get you started:
 -->
 
 # Hi there, I'm Ali Sina (AliSinaDevelo) 👋
+
+![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=gruvbox)
 
 <!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
 
