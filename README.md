@@ -18,11 +18,13 @@ Here are some ideas to get you started:
 # Hi there, I'm Ali Sina (AliSinaDevelo) 👋
 
 ![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=gruvbox)
-[![AliSina's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AliSinaDevelo)](https://github.com/AliSinaDevelo/github-readme-activity-graph)
+
 
 <!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
 
 I am an enthusiastic and adaptable full-stack developer with a strong passion for building innovative web-based solutions. With expertise in a wide array of programming languages and frameworks, I excel in crafting efficient and scalable applications. My proficiency in various development tools, cloud platforms, and databases allows me to deliver high-quality projects from concept to deployment. I am eager to contribute my expertise to exciting projects and bring value to your team.
+
+[![AliSina's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=AliSinaDevelo)](https://github.com/AliSinaDevelo/github-readme-activity-graph)
 
 ## Education 🎓
 
