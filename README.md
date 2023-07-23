@@ -66,5 +66,5 @@ I am an Enthisoastic and adaptable full-stack developer with a strong passion fo
 ## Get in Touch 📬
 
 - GitHub: [AliSinaDevelo](https://github.com/AliSinaDevelo)
-- LinkedIn (https://www.linkedin.com/in/alisina-karimi-43a834224/)
+- LinkedIn: [AliSina Karimi](https://www.linkedin.com/in/alisina-karimi-43a834224/)
 
