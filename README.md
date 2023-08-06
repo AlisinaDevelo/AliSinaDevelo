@@ -24,6 +24,7 @@ Here are some ideas to get you started:
 
 I am an enthusiastic and adaptable full-stack developer with a strong passion for building innovative web-based solutions. With expertise in a wide array of programming languages and frameworks, I excel in crafting efficient and scalable applications. My proficiency in various development tools, cloud platforms, and databases allows me to deliver high-quality projects from concept to deployment. I am eager to contribute my expertise to exciting projects and bring value to your team.
 
+
 ## Education 🎓
 
 - Bachelor of Science in Computer Engineering, Politecnico di Torino, Turin, Italy (expected graduation: June 2024)
