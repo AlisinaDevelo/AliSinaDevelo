@@ -41,7 +41,7 @@ I am an enthusiastic and adaptable full-stack developer with a strong passion fo
 
 ### Frontend Technologies
 
-- HTML, CSS, Bootstrap, Tailwind CSS
+- HTML, CSS, Bootstrap, Tailwind CSS, SASS
 - Vue.js, React, Angular, Svelte
 
 ### Backend Technologies
@@ -50,7 +50,7 @@ I am an enthusiastic and adaptable full-stack developer with a strong passion fo
 
 ### Database & Cloud
 
-- MySQL, PostgreSQL, SQLite, MariaDB, MongoDB
+- MySQL, PostgreSQL, MariaDB, MongoDB
 - AWS, Azure, Firebase
 
 ### Tools & Miscellaneous
