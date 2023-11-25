@@ -68,4 +68,6 @@ I am an enthusiastic and adaptable full-stack developer with a strong passion fo
 
 - GitHub: [AliSinaDevelo](https://github.com/AliSinaDevelo)
 - LinkedIn: [AliSina Karimi](https://www.linkedin.com/in/alisina-karimi-43a834224/)
+- Twitter: [AliSina Karimi](https://x.com/alisina__karimi?s=11)
+
 
