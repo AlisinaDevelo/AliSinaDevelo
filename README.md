@@ -17,8 +17,11 @@ Here are some ideas to get you started:
 
 # Hi there, I'm Ali Sina (AliSinaDevelo) 👋
 
-![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=high-contrast)
+<!--- ![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=high-contrast) --->
 
+
+
+          
 
 <!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
 
