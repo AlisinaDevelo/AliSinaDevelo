@@ -40,7 +40,7 @@ I am an enthusiastic and adaptable full-stack developer with a strong passion fo
 
 ### Programming Languages
 
-- C/C++, C#, Go, Python, JavaScript/TypeScript, Bash, SQL, Ruby
+- C, C++, Go, Python, JavaScript/TypeScript, Bash, SQL, Ruby
 
 ### Frontend Technologies
 
