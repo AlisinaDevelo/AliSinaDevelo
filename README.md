@@ -25,7 +25,7 @@ Here are some ideas to get you started:
 
 <!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
 
-I am an enthusiastic and adaptable full-stack developer with a strong passion for building innovative web-based solutions. With expertise in a wide array of programming languages and frameworks, I excel in crafting efficient and scalable applications. My proficiency in various development tools, cloud platforms, and databases allows me to deliver high-quality projects from concept to deployment. I am eager to contribute my expertise to exciting projects and bring value to your team.
+I am an enthusiastic and adaptable Software Developer with a strong passion for building innovative solutions. With expertise in a wide array of programming languages and frameworks, I excel in crafting efficient and scalable applications. My proficiency in various development tools, cloud platforms, and databases allows me to deliver high-quality projects from concept to deployment. I am eager to contribute my expertise to exciting projects and bring value to your team.
 
 ## Education 🎓
 
@@ -40,21 +40,21 @@ I am an enthusiastic and adaptable full-stack developer with a strong passion fo
 
 ### Programming Languages
 
-- C, C++, Go, Python, JavaScript/TypeScript, Bash, SQL, Ruby
+- C, C++, Go, Python, JavaScript/TypeScript
 
 ### Frontend Technologies
 
 - HTML, CSS, Bootstrap, Tailwind CSS, SASS
-- Vue.js, React, Angular, Svelte
+- Vue.js, React, Svelte
 
 ### Backend Technologies
 
-- Node.js, Express, Django, Flask, ASP.NET, FastAPI
+- Node.js, Express, Django, Flask, FastAPI
 
 ### Database & Cloud
 
 - MySQL, PostgreSQL, MariaDB, MongoDB
-- AWS, Azure, Firebase
+- AWS, Firebase
 
 ### Tools & Miscellaneous
 
