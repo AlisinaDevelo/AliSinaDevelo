@@ -29,7 +29,7 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 
 ## Education 🎓
 
-- Bachelor of Science in Computer Engineering, Politecnico di Torino, Turin, Italy (expected graduation: June 2024)
+- Bachelor of Science in Computer Engineering, Politecnico di Torino, Turin, Italy 
 
 ## Skills 🚀
 
