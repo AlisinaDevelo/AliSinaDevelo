@@ -40,7 +40,7 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 
 ### Programming Languages
 
-- C, C++, Go, Python, JavaScript/TypeScript
+- C, Go, Python, JavaScript/TypeScript
 
 ### Frontend Technologies
 
@@ -49,22 +49,22 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 
 ### Backend Technologies
 
-- Node.js, Express, Django, Flask, FastAPI
+- Node.js, Express, Django, FastAPI
 
 ### Database & Cloud
 
-- MySQL, PostgreSQL, MariaDB, MongoDB
+- MySQL, PostgreSQL, GraphQL, MongoDB
 - AWS, Firebase
 
 ### Tools & Miscellaneous
-
+- Build tools: Vite, esbuild, Vitest
 - Git, Docker, Kubernetes
 - npm, Homebrew
 - Chai (Testing)
 - Emacs, VS Code (Code Editors)
-
+<!--
 ## Projects 🛠️
-
+-->
 
 
 ## Get in Touch 📬
