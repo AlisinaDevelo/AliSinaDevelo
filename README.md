@@ -40,7 +40,7 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 
 ### Programming Languages
 
-- C, Go, Python, JavaScript/TypeScript
+- C, C++, Go, Python, JavaScript/TypeScript
 
 ### Frontend Technologies
 
