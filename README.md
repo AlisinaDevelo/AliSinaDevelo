@@ -14,7 +14,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)
 # Hi there, I'm Ali Sina (AliSinaDevelo) 👋
 
 <!--- ![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=high-contrast) --->
