@@ -40,7 +40,7 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 
 ### Programming Languages
 
-- C, C++, Go, Python, JavaScript/TypeScript
+- C, Go, Python, JavaScript/TypeScript
 
 ### Frontend Technologies
 
@@ -72,5 +72,5 @@ I am an enthusiastic and adaptable Software Developer with a strong passion for 
 - GitHub: [AliSinaDevelo](https://github.com/AliSinaDevelo)
 - LinkedIn: [AliSina Karimi](https://www.linkedin.com/in/alisina-karimi-43a834224/)
 - Twitter: [AliSina Karimi](https://x.com/alisina__karimi?s=11)
-
+- Portfolio: [AliSina Karimi](https://alisinadevelo.github.io)
 
