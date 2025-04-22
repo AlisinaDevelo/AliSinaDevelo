@@ -1,76 +1,63 @@
+<!-- GitHub Profile README for AliSinaDevelo -->
 
+<!--<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=2000&pause=1000&center=true&vCenter=true&width=440&lines=Hi+there%2C+I'm+Ali+Sina+👋;Software+Developer+%7C+Creative+Builder;Code.+Debug.+Deploy.+Repeat." alt="Typing SVG" />
+</div> -->
 
-<!--
-**AliSinaDevelo/AliSinaDevelo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 👨‍💻 About Me
 
-Here are some ideas to get you started:
+I'm **Alisina**, a curious and creative **Software Developer** who thrives on building elegant and practical solutions to complex problems. From scalable backend systems to sleek frontend designs, I love weaving code into real-world impact.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&hide_progress=true)
-# Hi there, I'm Ali Sina (AliSinaDevelo) 👋
+Whether it's a hackathon project, a research prototype, or production-level systems, I enjoy every step of the journey—especially the debugging marathons with coffee and music in the background. ☕
 
-<!--- ![AliSina's github stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=high-contrast) --->
+---
 
+### 🧠 Currently
 
+- 🚀 Exploring system design patterns and scalable microservices
+- 🛠️ Building full-stack apps with modern frameworks (Vue, React, FastAPI, etc.)
+- 🌱 Learning more about distributed systems and cloud-native development
+- 🤝 Looking to collaborate on innovative, open-source projects
 
-          
+---
 
-<!-- ![Header Image](https://your-image-url.com)  Replace this with a header image if you have one --> 
+### 🛠️ Tech Stack
 
-I am an enthusiastic and adaptable Software Developer with a strong passion for building innovative solutions. With expertise in a wide array of programming languages and frameworks, I excel in crafting efficient and scalable applications. My proficiency in various development tools, cloud platforms, and databases allows me to deliver high-quality projects from concept to deployment. I am eager to contribute my expertise to exciting projects and bring value to your team.
+**Languages:**  
+`Go` • `Python` • `C` • `TypeScript` • `JavaScript`
 
-## Education 🎓
+**Frontend:**  
+`React` • `Vue.js` • `Svelte` • `Tailwind CSS` • `Bootstrap` • `HTML/CSS`
 
-- Bachelor of Science in Computer Engineering, Politecnico di Torino, Turin, Italy 
+**Backend:**  
+`Node.js` • `Express` • `Django` • `FastAPI`
 
-## Skills 🚀
+**Databases & APIs:**  
+`PostgreSQL` • `MySQL` • `MongoDB` • `GraphQL`
 
-- Strong understanding of software development principles, design patterns, and coding best practices
-- Experience with agile development methodologies and version control systems such as Git
-- Ability to troubleshoot and debug code, as well as optimize application performance
-- Excellent communication and interpersonal skills, with a passion for teamwork and collaboration
+**DevOps & Tools:**  
+`Docker` • `Kubernetes` • `AWS` • `Firebase` • `Git` • `Vite` • `Vitest` • `Emacs` • `VS Code`
 
-### Programming Languages
+---
 
-- C, Go, Python, JavaScript/TypeScript
+### 📊 GitHub Stats
 
-### Frontend Technologies
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliSinaDevelo&layout=compact&theme=radical" />
+  <br />
+  <!-- Optional: Uncomment to show full stats -->
+  <!-- <img src="https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&theme=radical" /> -->
+</div>
 
-- HTML, CSS, Bootstrap, Tailwind CSS, SASS
-- Vue.js, React, Svelte
+---
 
-### Backend Technologies
+### 📫 Let's Connect
 
-- Node.js, Express, Django, FastAPI
+- 🌐 [Portfolio](https://alisinadevelo.github.io)
+- 💼 [LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/)
+- 🐙 [GitHub](https://github.com/AliSinaDevelo)
+- 🐦 [Twitter](https://x.com/alisina__karimi?s=11)
 
-### Database & Cloud
+---
 
-- MySQL, PostgreSQL, GraphQL, MongoDB
-- AWS, Firebase
-
-### Tools & Miscellaneous
-- Build tools: Vite, esbuild, Vitest
-- Git, Docker, Kubernetes
-- npm, Homebrew
-- Chai (Testing)
-- Emacs, VS Code (Code Editors)
-<!--
-## Projects 🛠️
--->
-
-
-## Get in Touch 📬
-
-- GitHub: [AliSinaDevelo](https://github.com/AliSinaDevelo)
-- LinkedIn: [AliSina Karimi](https://www.linkedin.com/in/alisina-karimi-43a834224/)
-- Twitter: [AliSina Karimi](https://x.com/alisina__karimi?s=11)
-- Portfolio: [AliSina Karimi](https://alisinadevelo.github.io)
-
+<sub><sup>“Code is like humor. When you have to explain it, it’s bad.” – Cory House</sup></sub>
