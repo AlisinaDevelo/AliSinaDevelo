@@ -56,7 +56,7 @@ Whether it's a hackathon project, a research prototype, or production-level syst
 - 🌐 [Portfolio](https://alisinadevelo.github.io)
 - 💼 [LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/)
 - 🐙 [GitHub](https://github.com/AliSinaDevelo)
-- 🐦 [Twitter](https://x.com/alisina__karimi?s=11)
+- 🐦 [Twitter](https://x.com/AlisinaDevelo?s=11)
 
 ---
 
