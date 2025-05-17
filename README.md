@@ -24,13 +24,13 @@ Whether it's a hackathon project, a research prototype, or production-level syst
 ### 🛠️ Tech Stack
 
 **Languages:**  
-`Go` • `Python` • `C` • `TypeScript` • `JavaScript`
+`Go` • `Python` • `C` • `TypeScript` • `JavaScript` • `PHP` 
 
 **Frontend:**  
-`React` • `Vue.js` • `Svelte` • `Tailwind CSS` • `Bootstrap` • `HTML/CSS`
+`React` • `Vue.js` • `Svelte` • `Tailwind CSS` • `Tailwind` 
 
 **Backend:**  
-`Node.js` • `Express` • `Django` • `FastAPI`
+`Node.js` • `Express` • `Django` • `Symfony`
 
 **Databases & APIs:**  
 `PostgreSQL` • `MySQL` • `MongoDB` • `GraphQL`
