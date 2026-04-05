@@ -59,12 +59,6 @@ Software engineer focused on **scalable systems** and **distributed architecture
 
 ---
 
-### Highlight project
-
-**[Chatster](https://github.com/AliSinaDevelo/Chatster)** — Real-time chat (Go, React, SQLite WAL, Gorilla WebSockets): connection management, heartbeats, low-latency persistence.
-
----
-
 ### Stack
 
 <p>
@@ -116,13 +110,6 @@ Software engineer focused on **scalable systems** and **distributed architecture
 | LaTeX source | [`cv/AlisinaKarimi-CV.tex`](cv/AlisinaKarimi-CV.tex) |
 
 ---
-
-<div align="center">
-
-**Also on** [X / Twitter](https://x.com/AlisinaDevelo)
-
-<br />
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliSinaDevelo&layout=compact&langs_count=8&hide_title=true&bg_color=0d1117&border_color=30363d&text_color=c9d1d9&title_color=818cf8" alt="Top languages" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AliSinaDevelo&layout=compact&langs_count=8&hide_title=true&theme=tokyonight" />
 
 </div>
