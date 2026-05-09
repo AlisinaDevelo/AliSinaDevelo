@@ -4,58 +4,26 @@
 
 # Alisina Karimi
 
-### Software Engineer · Scalable systems & distributed backends
+### Backend Engineer · Distributed Systems · Data Engineering
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-6366f1?style=flat-square&labelColor=1e1b4b)](https://alisinadevelo.github.io)
+[![Résumé](https://img.shields.io/badge/Résumé-PDF-a5b4fc?style=flat-square&labelColor=312e81)](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alisina-karimi/)
 
 Turin, Italy · Remote-friendly across time zones
 
-<br />
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-6366f1?style=flat-square&labelColor=1e1b4b)](https://alisinadevelo.github.io)
-[![Résumé (PDF)](https://img.shields.io/badge/Résumé-PDF-a5b4fc?style=flat-square&labelColor=312e81)](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alisina-karimi/)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AliSinaDevelo)
-
 </div>
 
-<br />
+---
+
+```
+backend engineer building things that hold up in production
+currently:  Go microservices · PostgreSQL at scale · commerce integrations
+```
 
 ---
 
-### Summary
-
-Software engineer focused on **scalable systems** and **distributed architectures**. B.Sc. in Computer Engineering; shipping work that improves production databases, cuts infrastructure cost, and delivers analytics and integrations end-to-end. Comfortable in **high-autonomy remote** setups.
-
----
-
-### Experience
-
-#### WineHub Commerce · Full stack / backend engineer
-`Nov 2024 — Present` · Remote (Adelaide, AU)
-
-- 3×–10× gains on critical database workloads; **MariaDB → PostgreSQL** migration (~**60% infrastructure cost** reduction).
-- **Go** microservices for analytics, billing, webhooks; BI dashboards and reporting for finance.
-- Integrations: Sovos ShipCompliant, Avalara, VinoShipper, WineDirect; automated compliance and reporting.
-
-#### Moneyviz srl · Full stack developer
-`May 2024 — Nov 2024` · Turin, Italy
-
-- Financial analytics in **Laravel** and **Vue.js**; tighter ingestion and transformation pipelines for faster dashboards.
-- Partnered with product on reporting requirements and consistent backend/UI behavior.
-
-#### RUN Polito APS-ETS · Software developer
-`Sep 2022 — May 2024` · Turin, Italy
-
-- Internal tooling in **Go** and **JavaScript**; automation and legacy refactors for reliability and maintainability.
-
-#### WEEEOpen · Back-end developer
-`May 2022 — Aug 2022` · Turin, Italy
-
-- **Django** performance and stability; **React** integration with backend APIs.
-
-#### Open source & freelance · Software developer
-`Sep 2021 — Present` · Remote
-
-- Event-driven prototypes with **Kafka** and **Node.js**; OSS work on APIs, documentation, and developer experience.
+I focus on **scalable backends**, **data-heavy products**, and **systems integrations**. I care about databases, observability, and keeping operational overhead low. Work spans performance-critical query paths, distributed messaging, and end-to-end compliance pipelines.
 
 ---
 
@@ -71,17 +39,17 @@ Software engineer focused on **scalable systems** and **distributed architecture
 <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
 <img alt="AWS" src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
 <img alt="Kafka" src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apache-kafka&logoColor=white" />
-<img alt="Vue" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
 <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" />
-<img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
+<img alt="Vue" src="https://img.shields.io/badge/Vue.js-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white" />
 <img alt="Django" src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
+<img alt="Laravel" src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" />
 </p>
 
 <details>
-<summary><strong>Full skill list</strong> (from résumé)</summary>
+<summary><strong>Full breakdown</strong></summary>
 
 | Area | Technologies |
-|------|----------------|
+|------|-------------|
 | **Languages** | Go, Python, C, PHP, JavaScript, TypeScript, SQL, Java |
 | **Frameworks** | React, Vue.js, Django, Laravel, FastAPI, Symfony, Gin |
 | **Cloud / DevOps** | Docker, Kubernetes, AWS, Terraform, Kafka, CI/CD |
@@ -91,25 +59,17 @@ Software engineer focused on **scalable systems** and **distributed architecture
 
 ---
 
-### Education & certifications
+### Selected projects
 
-- **M.Sc. Computer Engineering** — Politecnico di Torino · Sep 2025 — Present  
-- **B.Sc. Computer Engineering** — Politecnico di Torino · Sep 2021 — Sep 2025  
-
-**Certifications:** Algorithms Specialization (Stanford) · Machine Learning (DeepLearning.AI) · Meta Back-end & Front-end Developer  
-
-**Languages:** English & Persian (bilingual) · German (professional) · Italian & French (fluent)
-
----
-
-### Résumé files in this repo
-
-| File | Link |
-|------|------|
-| PDF | [`cv/AlisinaKarimi-CV.pdf`](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf) |
-| LaTeX source | [`cv/AlisinaKarimi-CV.tex`](cv/AlisinaKarimi-CV.tex) |
+| Project | Stack |
+|---------|-------|
+| [**Chatster**](https://github.com/AliSinaDevelo/Chatster) | Go · WebSocket hub · SQLite · React · Prometheus |
+| [**StreamHive**](https://github.com/AliSinaDevelo/StreamHive) | Go · TCP transport · SHV1 framing · content-addressed storage |
+| [**news-api**](https://github.com/AliSinaDevelo/news-api) | TypeScript · Express · Redis · OpenTelemetry · K8s manifests |
+| [**Quorabust**](https://github.com/AliSinaDevelo/Quorabust) | Python · XGBoost · FastAPI · Prometheus · A/B serving |
 
 ---
+
+<div align="center">
 <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AliSinaDevelo&layout=compact&langs_count=8&hide_title=true&theme=tokyonight" />
-
 </div>
