@@ -1,6 +1,5 @@
-\documentclass[11pt,a4paper]{article}
+\documentclass[10pt,a4paper]{article}
 
-\usepackage[empty]{fullpage}
 \usepackage{titlesec}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
@@ -8,30 +7,22 @@
 \usepackage[english]{babel}
 \usepackage{tabularx}
 \usepackage{geometry}
-\usepackage{xcolor} % Fixed: Added for \color support
+\usepackage{xcolor}
 
-% Document Margins
-\geometry{left=0.6in, top=0.5in, right=0.6in, bottom=0.5in}
+\geometry{left=0.55in, top=0.38in, right=0.55in, bottom=0.42in}
 
 \pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
+\fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
-
-% Fix for footskip warning
 \setlength{\footskip}{4.1pt}
 
-% Section formatting - Minimal & ATS Friendly
 \titleformat{\section}{
   \vspace{-10pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
 
-% Custom commands
 \newcommand{\resumeItem}[1]{
-  \item\small{
-    {#1 \vspace{-2pt}}
-  }
+  \item\small{{#1 \vspace{-2pt}}}
 }
 
 \newcommand{\resumeSubheading}[4]{
@@ -49,125 +40,109 @@
     \end{tabular*}\vspace{-7pt}
 }
 
-\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
-
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
-\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in]}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.2in, itemsep=0pt, parsep=1pt, topsep=2pt]}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \begin{document}
 
-%----------HEADER----------
 \begin{center}
-    {\Huge \textbf{Alisina Karimi}} \\ \vspace{4pt}
-    \small Turin, Italy $|$ \href{mailto:alisinakarimi.2003@gmail.com}{\underline{alisinakarimi.2003@gmail.com}} \\
-    \href{https://alisinadevelo.github.io}{\underline{Portfolio}} $|$ 
-    \href{https://github.com/AliSinaDevelo}{\underline{GitHub}} $|$ 
-    \href{https://linkedin.com/in/alisina-karimi}{\underline{LinkedIn}}
+    {\LARGE \textbf{Alisina Karimi}} \\ \vspace{2pt}
+    \small Backend / Platform Engineer $|$ Turin, Italy $|$ +39 379 2931549 $|$
+    \href{mailto:alisinakarimi.2003@gmail.com}{\underline{alisinakarimi.2003@gmail.com}} \\
+    \href{https://alisinadevelo.github.io}{\underline{Portfolio}} $|$
+    \href{https://github.com/AliSinaDevelo}{\underline{GitHub}} $|$
+    \href{https://linkedin.com/in/alisina-karimi}{\underline{LinkedIn}} $|$
+    \small Remote-only $\cdot$ EU-based contractor (Italian VAT / partita IVA) or EOR $\cdot$ no visa sponsorship needed
 \end{center}
 
-%-----------SUMMARY-----------
 \section{Summary}
-\small{Software Engineer specializing in scalable systems and distributed architectures. B.Sc. in Computer Engineering with a track record of optimizing production systems, reducing infrastructure costs via architectural improvements, and building end-to-end analytics platforms. Experienced in high-autonomy remote environments across multiple time zones.}
+\small{Backend/platform engineer already working remotely for an Australia-based commerce company from Italy. I own production services, AWS infrastructure, database migrations, CI/CD, observability, and integrations end to end. Strongest signals: PostgreSQL migration with \textbf{$\sim$60\% infrastructure-cost reduction}, \textbf{3$\times$--10$\times$} production query speedups, Terraform/Packer/ASG rollout work, and public projects with tests, containers, metrics, security hardening, and operator docs.}
 
-%-----------EXPERIENCE-----------
 \section{Experience}
   \resumeSubHeadingListStart
 
-    \resumeSubheading
+   \resumeSubheading
       {WineHub Commerce}{Nov 2024 -- Present}
-      {Full Stack / Backend Engineer}{Adelaide, Australia (Remote)}
+      {Software Engineer}{Adelaide, Australia (Remote from Italy)}
       \resumeItemListStart
-        \resumeItem{Optimized database queries and performance, achieving \textbf{3×--10× improvements} across critical workloads.}
-        \resumeItem{Worked on migration from MariaDB to \textbf{PostgreSQL}, resulting in a \textbf{~60\% infrastructure cost reduction}.}
-        \resumeItem{Designed and implemented \textbf{Go-based microservices} for analytics, billing, and webhook processing.}
-        \resumeItem{Built a full BI platform (custom dashboards, reporting pipelines) for financial decision-making.}
-        \resumeItem{Integrated compliance/fulfillment APIs: Sovos ShipCompliant, Avalara, VinoShipper, and WineDirect.}
-        \resumeItem{Automated reporting and compliance pipelines, significantly reducing operational overhead.}
+        \resumeItem{Led MariaDB to \textbf{PostgreSQL} migration across schema design, query refactors, validation, and cutover; reduced infrastructure cost by \textbf{$\sim$60\%} and followed with indexing/tuning that delivered \textbf{3$\times$--10$\times$} speedups on production workloads.}
+        \resumeItem{Modernized the platform for horizontal scaling: externalized sessions to \textbf{Valkey}, moved async work to \textbf{AWS SQS}, replaced hardcoded IAM keys with instance-role credentials, and shipped ALB-aware health checks for multi-instance deployment.}
+        \resumeItem{Authored \textbf{Terraform} for ASG, ALB target groups, scaling policies, lifecycle hooks, SQS, and ElastiCache; built GitHub Actions workflows for plan/apply and rolling ASG deployments.}
+        \resumeItem{Built \textbf{Packer} AMIs on AL2023/ARM64 with EC2-tag-driven boot behavior, CloudWatch Agent, OpenTelemetry Collector, and Supervisor-managed worker pools.}
+        \resumeItem{Designed \textbf{Go} services for analytics, billing, and webhook processing, while shipping core commerce work in \textbf{Symfony/PHP} and integrations with Sovos ShipCompliant, Avalara, Vinoshipper, and WineDirect.}
       \resumeItemListEnd
 
  \resumeSubheading
   {Moneyviz srl}{May 2024 -- Nov 2024}
   {Full Stack Developer}{Turin, Italy}
   \resumeItemListStart
-    \resumeItem{Developed financial analytics features using \textbf{Laravel} and \textbf{Vue.js}, enabling portfolio performance tracking and visualization for end users.}
-    \resumeItem{Improved backend data ingestion and transformation pipelines, reducing latency of analytical queries and improving responsiveness of dashboards.}
-    \resumeItem{Refactored data processing logic to improve consistency across financial reporting workflows and reduce edge-case discrepancies.}
-    \resumeItem{Collaborated closely with product stakeholders to translate financial requirements into scalable backend and UI implementations.}
+    \resumeItem{Built financial analytics features in \textbf{Laravel} and \textbf{Vue.js} for a portfolio platform serving \textbf{1000+} user portfolios; improved ingestion/transformation paths to reduce dashboard latency.}
   \resumeItemListEnd
 
 \resumeSubheading
   {RUN Polito APS-ETS}{Sep 2022 -- May 2024}
   {Software Developer}{Turin, Italy}
   \resumeItemListStart
-    \resumeItem{Developed internal tools using \textbf{Go} and \textbf{JavaScript} to support operational workflows for a multi-team student organization.}
-    \resumeItem{Automated administrative and coordination processes, reducing manual workload and improving turnaround time for internal requests.}
-    \resumeItem{Refactored legacy services to improve maintainability and reliability, reducing recurring issues and simplifying future feature development.}
-    \resumeItem{Worked directly with non-technical stakeholders to identify inefficiencies and design practical software solutions.}
+    \resumeItem{Built internal tooling in \textbf{Go} and JavaScript for \textbf{50+} members across 5 teams; automated recurring administrative workflows and refactored legacy services.}
   \resumeItemListEnd
 
 \resumeSubheading
-  {WEEEOpen}{May 2022 -- Aug 2022}
-  {Back-end Developer}{Turin, Italy}
+  {WEEEOpen, Politecnico di Torino}{May 2022 -- Aug 2022}
+  {Backend Developer}{Turin, Italy}
   \resumeItemListStart
-    \resumeItem{Improved backend services using \textbf{Django}, enhancing performance and stability of core application features.}
-    \resumeItem{Supported frontend integration using \textbf{React}, improving data flow between backend APIs and user interfaces.}
-    \resumeItem{Participated in debugging and issue resolution across the stack, reducing friction in development and testing cycles.}
-  \resumeItemListEnd
-
-\resumeSubheading
-  {Open Source / Freelance Developer}{Sep 2021 -- Present}
-  {Software Developer}{Remote}
-  \resumeItemListStart
-    \resumeItem{Designed and implemented distributed data processing prototypes using \textbf{Kafka} and \textbf{Node.js} for event-driven workflows.}
-    \resumeItem{Contributed to open-source backend projects, focusing on API design, documentation, and developer experience improvements.}
-    \resumeItem{Worked independently on multiple small-scale projects, strengthening ability to scope, design, and deliver features end-to-end.}
+    \resumeItem{Improved Django backend services and React integrations for an internal asset-management platform.}
   \resumeItemListEnd
 
   \resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
-\section{Projects}
+\section{Selected Projects}
     \resumeSubHeadingListStart
+
       \resumeProjectHeading
-          {\textbf{Chatster} $|$ \emph{Go, React, SQLite, Gorilla WebSockets}}{}
+          {\textbf{Chatster} $|$ \emph{Go, WebSockets, SQLite, React, Prometheus, Docker}}{\href{https://github.com/AliSinaDevelo/Chatster}{\underline{github}}}
           \resumeItemListStart
-            \resumeItem{Built a real-time chat system with stateful connection management and heartbeat monitoring.}
-            \resumeItem{Optimized message persistence using \textbf{SQLite in WAL mode} for low-latency writes.}
+            \resumeItem{Real-time chat stack with concurrent WebSocket hub, per-client write serialization, SQLite-backed replay, graceful shutdown, JSON logs, Prometheus metrics, rate limiting, Origin allowlist support, Docker Compose, and race-tested CI.}
           \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{StreamHive} $|$ \emph{Go, TCP/TLS, custom framing, content-addressed storage}}{\href{https://github.com/AliSinaDevelo/StreamHive}{\underline{github}}}
+          \resumeItemListStart
+            \resumeItem{Systems project with length-prefixed SHV1 frames, versioned handshake, context-aware listen/dial, TLS hooks, peer limits, BlobStore interface, liveness/readiness/metrics endpoints, pinned-action CI, coverage, and CycloneDX SBOM.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{news-api} $|$ \emph{TypeScript, Express, Redis, OpenAPI, OpenTelemetry, Kubernetes}}{\href{https://github.com/AliSinaDevelo/news-api}{\underline{github}}}
+          \resumeItemListStart
+            \resumeItem{Production-oriented API with Redis/in-memory caching, upstream timeouts, strict response validation, API keys, rate limiting, Pino logs, Prometheus metrics, OTLP tracing, OpenAPI, non-root Docker image, K8s probes, SBOM, and dependency-review CI.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Forge / md-files} $|$ \emph{AI coding agents, prompt evals, safety hooks, Python tests}}{\href{https://github.com/AliSinaDevelo/md-files}{\underline{github}}}
+          \resumeItemListStart
+            \resumeItem{Installable Claude Code toolkit packaging specialist agents, progressive-disclosure skills, slash commands, safety hooks, docs, and an eval/test harness; useful signal for AI developer-tools and platform-engineering roles.}
+          \resumeItemListEnd
+
     \resumeSubHeadingListEnd
 
-%-----------SKILLS-----------
 \section{Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Go, Python, C, PHP, JavaScript/TypeScript, SQL, Java} \\
-     \textbf{Frameworks}{: React, Vue.js, Django, Laravel, FastAPI, Symfony, Gin} \\
-     \textbf{Cloud/DevOps}{: Docker, Kubernetes, AWS, Terraform, Kafka, CI/CD} \\
-     \textbf{Databases}{: PostgreSQL, MySQL, MariaDB, MongoDB, SQLite}
+     \textbf{Languages}{: Go, PHP, Python, TypeScript/JavaScript, SQL, C, Java} \\
+     \textbf{Backend}{: Symfony, Laravel, Express, Django, FastAPI, Gin, REST/OpenAPI, WebSockets, GraphQL} \\
+     \textbf{Cloud / Platform}{: AWS EC2/ASG/ALB/SQS/ElastiCache/Lambda, Terraform, Packer, Docker, Kubernetes, GitHub Actions, Linux} \\
+     \textbf{Data / Observability}{: PostgreSQL, MySQL/MariaDB, SQLite, MongoDB, Redis/Valkey, Prometheus, Grafana, OpenTelemetry, Pino/slog} \\
+     \textbf{AI / ML}{: LLM-assisted engineering workflows, agent/tool design, eval harnesses, scikit-learn, XGBoost, TF--IDF, embeddings; author of SignalForge, a cross-LLM security toolkit (specialist agents, detections, evals)} \\
+     \textbf{Spoken languages}{: English and Persian (bilingual), Italian and French (fluent), German (professional)}
     }}
  \end{itemize}
 
-%-----------CERTIFICATIONS-----------
-\section{Certifications}
-\begin{itemize}[leftmargin=0.15in, label={}]
-    \small{\item{Algorithms Specialization (Stanford), Machine Learning (DeepLearning.AI), Meta Backend/Frontend Developer}}
-\end{itemize}
-
-%-----------EDUCATION-----------
 \section{Education}
 \resumeSubHeadingListStart
   \resumeSubheading
-    {Politecnico di Torino}{Sep 2025 -- Present}
-    {M.Sc. in Computer Engineering}{Turin, Italy}
-  \resumeSubheading
-    {Politecnico di Torino}{Sep 2021 -- Sep 2025}
-    {B.Sc. in Computer Engineering}{Turin, Italy}
+    {Politecnico di Torino}{Turin, Italy}
+    {B.Sc. Computer Engineering, 2021 -- 2025}{}
 \resumeSubHeadingListEnd
-
-%-----------LANGUAGES-----------
-\section{Languages}
-    \small{English (Bilingual), Persian (Bilingual), German (Professional), Italian (Fluent), French (Fluent)}
 
 \end{document}
