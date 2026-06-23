@@ -11,7 +11,7 @@
 [LinkedIn](https://www.linkedin.com/in/alisina-karimi/) ·
 [CV](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
 
-Turin, Italy · remote across time zones
+Turin, Italy · remote across time zones · currently shipping production systems remotely for an Australia-based commerce company
 
 </div>
 
@@ -44,6 +44,7 @@ data           PostgreSQL · MariaDB/MySQL · SQLite · Redis/Valkey
 platform       AWS · Terraform · Packer · Docker · Kubernetes · GitHub Actions
 signals        Prometheus · Grafana · OpenTelemetry · structured logs
 ai tooling     agents · prompt systems · eval harnesses · local model workflows
+security       SignalForge cross-LLM lab · detection replay · evals · DFIR/RE tooling
 ```
 
 ## Project Notes
@@ -63,12 +64,17 @@ that treats the supply chain as part of the product.
 **Forge** is my AI-engineering workbench: agents, skills, commands, hooks, and evals
 packaged as something installable instead of a pile of prompts in a folder.
 
+**SignalForge** is Forge's larger, private sibling: a cross-LLM security lab — specialist
+agents, methodology skills, executable adapters, detection replay, and scope-aware safety
+hooks for defensive, DFIR, and reverse-engineering work. Happy to walk through it on request.
+
 ## Operating Style
 
 - I prefer small, inspectable systems over clever ones.
 - I write docs close to the code and keep them honest.
 - I treat observability, deployability, and failure behavior as features.
 - I like remote work when ownership is clear and the async trail is good.
+- Available as an EU-based contractor (Italian VAT / partita IVA) or via EOR — no visa sponsorship needed.
 
 <div align="center">
 
