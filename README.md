@@ -4,90 +4,73 @@
 
 # Alisina Karimi
 
-**Software engineer with a systems bias: backend services, data paths, infrastructure, and AI/security tooling.**
+#### Software engineer with a systems bias — backend, data, infrastructure & AI/security tooling
 
-[Portfolio](https://alisinadevelo.github.io) ·
-[GitHub](https://github.com/AliSinaDevelo) ·
-[LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/) ·
-[CV](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
+📍 Turin, Italy&nbsp;&nbsp;·&nbsp;&nbsp;🌍 remote across time zones&nbsp;&nbsp;·&nbsp;&nbsp;open to remote roles
 
-Turin, Italy · remote across time zones · currently shipping production systems remotely for an Australia-based commerce company
+[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=flat-square&logo=svelte&logoColor=white)](https://alisinadevelo.github.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alisina-karimi-43a834224/)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alisinakarimi.2003@gmail.com)
+[![CV](https://img.shields.io/badge/CV-2EA44F?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
 
 </div>
 
-```text
-alisina@workbench
-├─ current: remote production systems for commerce, analytics, billing, and integrations
-├─ range: backend services · infra automation · data-heavy products · agent/tooling systems
-├─ bias: simple contracts, measured performance, observable failure modes
-└─ proof: public repos with tests, docs, containers, metrics, and trade-offs
-```
+---
 
-I like the unglamorous parts of software: the query path that stops timing out, the
-worker that can be restarted safely, the integration that fails loudly instead of
-silently, the README that tells the next engineer what is actually true.
+I like the unglamorous parts of software: the query path that stops timing out, the worker that
+restarts safely, the integration that fails loudly instead of silently, and the README that tells
+the next engineer what's actually true.
 
-## How To Read The Work
+Right now I build production systems **remotely for an Australia-based commerce company** — Go
+services, a MariaDB → PostgreSQL migration, AWS platform work, and the billing, analytics, and
+integration paths behind them. I'm **open to remote roles** as an EU-based contractor (partita IVA)
+or via EOR — no visa sponsorship needed.
 
-The pinned repos are the entry points. The more interesting part is the pattern across
-them:
+### 🧰 Tech I reach for
 
-| Signal | Where it shows up |
+**Languages**
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
+
+**Backend**
+![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
+
+**Cloud & platform**
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+**Data & observability**
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+
+### 📌 Featured work
+
+| Project | What it is |
 |---|---|
-| **Production ownership** | Current work: PostgreSQL migration, AWS scaling, Terraform/Packer, CI/CD, BI/reporting, third-party commerce and compliance integrations. |
-| **Realtime systems** | Chatster: concurrent WebSocket hub, serialized writes, replay, abuse controls, health checks, metrics, and load-test proof. |
-| **API/platform taste** | news-api: validation, caching, upstream timeouts, API keys, OpenAPI, Redis, OpenTelemetry, K8s probes, Docker, SBOM-minded CI. |
-| **Systems engineering** | StreamHive: TCP/TLS transport, SHV1 framing, content-addressed storage boundary, connection limits, liveness/readiness/metrics. |
-| **AI engineering** | Forge / md-files: specialist agents, progressive-disclosure skills, slash commands, safety hooks, prompt evals, and plugin packaging. |
-| **Security depth** | SignalForge: private cross-LLM security lab with adapters, detection replay, scope-aware hooks, DFIR/RE workflows, and evals. |
-
-## Current Frequency
-
-```text
-programming       Go · PHP · Python · TypeScript/JavaScript · SQL · C · Java
-backend/web       Symfony · Laravel · Express · Django · FastAPI · Gin · REST/OpenAPI · WebSockets · GraphQL
-cloud/platform    AWS EC2/ASG/ALB/SQS/ElastiCache/Lambda · Terraform · Packer · Docker · Kubernetes · Linux
-data/cache        PostgreSQL · MariaDB/MySQL · SQLite · MongoDB · Redis/Valkey · migrations · query tuning
-observability     Prometheus · Grafana · OpenTelemetry · CloudWatch · structured logs · health/readiness probes
-delivery          GitHub Actions · rolling deploys · AMIs · Docker Compose · SBOMs · dependency review · release hygiene
-ai/tooling        agents · prompt systems · eval harnesses · Claude Code plugins · local model workflows
-security          SignalForge · scope-aware hooks · detection replay · DFIR/RE workflows · defensive automation
-product surface   React · Vue · dashboards · admin tools · docs that explain the operational contract
-```
-
-## Project Notes
-
-**Chatster** is the most direct "can ship backend code" repo. It is small enough to
-inspect quickly, but it has the production-adjacent details I care about: graceful
-shutdown, health checks, rate limits, logs, metrics, tests, and explicit non-goals.
-
-**StreamHive** is where I play closer to the wire: custom framing, transport concerns,
-connection limits, and a clean storage boundary before pretending global replication is
-solved.
-
-**news-api** is deliberately ordinary in the best way: an HTTP service with validation,
-timeouts, caching, API-key support, observability, Docker, Kubernetes manifests, and CI
-that treats the supply chain as part of the product.
-
-**Forge** is my AI-engineering workbench: agents, skills, commands, hooks, and evals
-packaged as something installable instead of a pile of prompts in a folder.
-
-**SignalForge** is Forge's larger, private sibling: a cross-LLM security lab with specialist
-agents, methodology skills, executable adapters, detection replay, and scope-aware safety
-hooks for defensive, DFIR, and reverse-engineering work. Walkthrough available on request.
-
-## Operating Style
-
-- I prefer small, inspectable systems over clever ones.
-- I write docs close to the code and keep them honest.
-- I treat observability, deployability, and failure behavior as features.
-- I like remote work when ownership is clear and the async trail is good.
-- Work setup: Italy-based, EU invoicing / EOR friendly, no relocation sponsorship sought.
+| [**Chatster**](https://github.com/AliSinaDevelo/Chatster) | Real-time Go WebSocket chat — concurrent hub, SQLite history, metrics, abuse controls, and a load-tested benchmark. |
+| [**news-api**](https://github.com/AliSinaDevelo/news-api) | Hardened TypeScript/Express news API — caching, validation, OpenAPI, K8s probes, and SBOM-minded CI. |
+| [**StreamHive**](https://github.com/AliSinaDevelo/StreamHive) | Go library for distributed content-addressed storage over TCP — custom framing, replication, health endpoints. |
+| [**Quorabust**](https://github.com/AliSinaDevelo/Quorabust) | Production-minded ML service — XGBoost duplicate-question detection, FastAPI serving, metrics, model cards. |
+| [**Forge**](https://github.com/AliSinaDevelo/md-files) | Installable Claude Code toolkit — specialist agents, skills, slash commands, safety hooks, and prompt evals. |
+| **SignalForge** *(private)* | Cross-LLM security lab — detection replay, scope-aware hooks, DFIR/RE workflows. Walkthrough on request. |
 
 <div align="center">
+<br>
 
-```text
-read the code · measure first · keep the contract sharp · leave the system easier to run
-```
+**Let's talk** — [portfolio](https://alisinadevelo.github.io) · [LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/) · [email](mailto:alisinakarimi.2003@gmail.com)
 
 </div>
