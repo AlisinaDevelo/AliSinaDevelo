@@ -8,7 +8,7 @@
 
 [Portfolio](https://alisinadevelo.github.io) ·
 [GitHub](https://github.com/AliSinaDevelo) ·
-[LinkedIn](https://www.linkedin.com/in/alisina-karimi/) ·
+[LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/) ·
 [CV](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
 
 Turin, Italy · remote across time zones · currently shipping production systems remotely for an Australia-based commerce company
