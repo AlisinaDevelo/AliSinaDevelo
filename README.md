@@ -76,7 +76,6 @@ func main() {
 
 <div align="center">
 
-![Alisina's GitHub stats](https://github-readme-stats.vercel.app/api?username=AliSinaDevelo&show_icons=true&hide_border=true&theme=tokyonight&icon_color=A78BFA&title_color=A78BFA&hide=contribs)
 ![GitHub Streak](https://streak-stats.demolab.com/?user=AliSinaDevelo&hide_border=true&theme=tokyonight&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA)
 
 </div>
