@@ -72,13 +72,16 @@ func main() {
 | 🔨 [**Forge**](https://github.com/AliSinaDevelo/md-files) | installable Claude Code toolkit — agents, skills, slash commands, safety hooks, prompt evals |
 | 🛡️ **SignalForge** *(private)* | cross-LLM security lab — detection replay, scope-aware hooks, DFIR/RE. Walkthrough on request |
 
-### 📊 the receipts
+### 🧭 how I build
 
-<div align="center">
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=AliSinaDevelo&hide_border=true&theme=tokyonight&ring=A78BFA&fire=A78BFA&currStreakLabel=A78BFA)
-
-</div>
+```mermaid
+flowchart LR
+    P([a problem]) --> C[a sharp contract]
+    C --> M[measure first]
+    M --> S[ship small]
+    S --> O[observe in prod]
+    O -->|fail loud, then iterate| C
+```
 
 <div align="center">
 <sub>📫 want to talk shop or hire? → <a href="mailto:alisinakarimi.2003@gmail.com">email</a> · <a href="https://www.linkedin.com/in/alisina-karimi-43a834224/">LinkedIn</a> · <a href="https://alisinadevelo.github.io">portfolio</a></sub>
