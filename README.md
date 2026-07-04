@@ -72,6 +72,14 @@ func main() {
 | 🔨 [**Forge**](https://github.com/AliSinaDevelo/md-files) | installable Claude Code toolkit — agents, skills, slash commands, safety hooks, prompt evals |
 | 🛡️ **SignalForge** *(private)* | cross-LLM security lab — detection replay, scope-aware hooks, DFIR/RE. Walkthrough on request |
 
+### 📈 GitHub at a glance
+
+<!-- STATS:START -->
+`65` followers&nbsp;·&nbsp;`29` public repos&nbsp;·&nbsp;`23` stars earned
+<!-- STATS:END -->
+
+<sub>Refreshed by a GitHub Action from the GitHub API — no third-party services.</sub>
+
 ### 🧭 how I build
 
 ```mermaid
