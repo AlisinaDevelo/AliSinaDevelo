@@ -75,7 +75,7 @@ func main() {
 ### 📈 GitHub at a glance
 
 <!-- STATS:START -->
-`65` followers&nbsp;·&nbsp;`29` public repos&nbsp;·&nbsp;`23` stars earned
+`61` followers&nbsp;·&nbsp;`29` public repos&nbsp;·&nbsp;`23` stars earned
 <!-- STATS:END -->
 
 <sub>Refreshed by a GitHub Action from the GitHub API — no third-party services.</sub>
