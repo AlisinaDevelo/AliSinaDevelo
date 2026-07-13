@@ -72,6 +72,15 @@ func main() {
 | 🔨 [**Forge**](https://github.com/AliSinaDevelo/md-files) | installable Claude Code toolkit — agents, skills, slash commands, safety hooks, prompt evals |
 | 🛡️ **SignalForge** *(private)* | cross-LLM security lab — detection replay, scope-aware hooks, DFIR/RE. Walkthrough on request |
 
+### 🔬 research in progress
+
+| | |
+|---|---|
+| 🔐 **Lattice** *(private — public with first results)* | post-quantum TLS lab — does hybrid ML-KEM misbehave at real packet boundaries? preregistered netem study, reproducible harness |
+| 🐦 **Murmuration** *(private — public with first results)* | federated learning under realistic participation — do user-level DP claims survive real client churn? |
+
+<sub>Part of a longer privacy-systems research program — more to come as results land.</sub>
+
 ### 📈 GitHub at a glance
 
 <!-- STATS:START -->
