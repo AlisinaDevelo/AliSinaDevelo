@@ -40,9 +40,10 @@ func main() {
 ### current frequency
 
 ```text
-prod   Go services · PostgreSQL migrations · AWS platform work · observability
-oss    merged fixes in pgx + Valkey · active review in golang-migrate + Zed
-lab    Forge · SignalForge · privacy-systems research
+prod   Go services · PostgreSQL migration · 3–10× query wins · ~60% infra-cost cut
+cloud  AWS ASG/ALB/SQS · Terraform/Packer · CI/CD · OpenTelemetry/Prometheus
+oss    merged fixes in pgx + Valkey · active PRs in golang-migrate + Zed
+lab    Forge · SignalForge · agent evals · security automation · privacy research
 ```
 
 ### 🧰 my toolbox
@@ -109,5 +110,5 @@ flowchart LR
 ```
 
 <div align="center">
-<sub>📫 want to talk shop or hire? → <a href="mailto:alisinakarimi.2003@gmail.com">email</a> · <a href="https://www.linkedin.com/in/alisina-karimi-43a834224/">LinkedIn</a> · <a href="https://alisinadevelo.github.io">portfolio</a></sub>
+<sub>📫 talk systems → <a href="mailto:alisinakarimi.2003@gmail.com">email</a> · <a href="https://www.linkedin.com/in/alisina-karimi-43a834224/">LinkedIn</a> · <a href="https://alisinadevelo.github.io">portfolio</a></sub>
 </div>
