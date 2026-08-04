@@ -25,9 +25,9 @@ type Engineer struct {
 func main() {
 	me := Engineer{
 		Name:      "Alisina Karimi",
-		Based:     "Turin, Italy 🇮🇹  // remote, any time zone",
+		Based:     "Turin, Italy 🇮🇹  // flexible overlap with AU / US time zones",
 		Currently: "shipping prod systems for an Australia-based commerce company",
-		OpenTo:    "remote roles — EU contractor (partita IVA) or EOR, no visa sponsorship",
+		OpenTo:    "remote collaboration — Italian VAT contractor or EOR",
 		Bias:      []string{"simple contracts", "measured performance", "observable failure"},
 	}
 	me.Ship() // and leave the system easier to run than I found it
@@ -36,6 +36,14 @@ func main() {
 
 > I like the unglamorous parts of software: the query path that stops timing out, the worker that
 > restarts safely, the integration that fails loudly instead of silently.
+
+### current frequency
+
+```text
+prod   Go services · PostgreSQL migrations · AWS platform work · observability
+oss    merged fixes in pgx + Valkey · active review in golang-migrate + Zed
+lab    Forge · SignalForge · privacy-systems research
+```
 
 ### 🧰 my toolbox
 
