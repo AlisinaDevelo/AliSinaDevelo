@@ -42,7 +42,7 @@ func main() {
 ```text
 prod   Go services · PostgreSQL migration · 3–10× query wins · ~60% infra-cost cut
 cloud  AWS ASG/ALB/SQS · Terraform/Packer · CI/CD · OpenTelemetry/Prometheus
-oss    merged fixes in pgx + Valkey · active PRs in golang-migrate + Zed
+oss    contributions across Go · databases · observability · developer tooling
 lab    Forge · SignalForge · agent evals · security automation · privacy research
 ```
 
