@@ -1,114 +1,62 @@
-<!-- Profile README — AliSinaDevelo -->
+# Alisina Karimi
+
+Software engineer in Turin, Italy.
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=24&pause=900&color=A78BFA&center=true&vCenter=true&width=640&height=50&lines=Software+engineer+with+a+systems+bias;Go+%C2%B7+PHP+%C2%B7+TypeScript+%C2%B7+Python;I+make+queries+stop+timing+out;Backend+%C2%B7+platform+%C2%B7+AI+%2F+security+tooling;Remote+from+Turin%2C+building+for+the+world)](https://alisinadevelo.github.io)
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-7C3AED?style=flat-square&logo=svelte&logoColor=white)](https://alisinadevelo.github.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alisina-karimi-43a834224/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:alisinakarimi.2003@gmail.com)
-[![CV](https://img.shields.io/badge/CV-2EA44F?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=600&size=24&pause=900&color=A78BFA&center=true&vCenter=true&width=640&height=50&lines=Go+%C2%B7+systems+%C2%B7+data+%C2%B7+tools;I+read+the+logs;I+measure+the+slow+path;PostgreSQL+%C2%B7+queues+%C2%B7+integrations;agents+%C2%B7+security+%C2%B7+privacy)](https://alisinadevelo.github.io)
 
 </div>
+
+I work on backend systems and the things around them: data migrations, queues, third-party integrations, observability, and the failure cases that show up after launch.
+
+At work I build and operate Go services, PostgreSQL infrastructure, AWS deployments, and commerce integrations for an Australia-based company. Outside work I build smaller systems to understand protocols, model serving, agent tooling, and security.
+
+[Portfolio](https://alisinadevelo.github.io) · [LinkedIn](https://www.linkedin.com/in/alisina-karimi-43a834224/) · [Email](mailto:alisinakarimi.2003@gmail.com) · [CV](https://github.com/AliSinaDevelo/AliSinaDevelo/raw/main/cv/AlisinaKarimi-CV.pdf)
+
+I work from Turin and regularly collaborate across European, US, and Australian time zones.
 
 ```go
 package main
 
-type Engineer struct {
-	Name      string
-	Based     string
-	Currently string
-	OpenTo    string
-	Bias      []string
+type Workbench struct {
+    Now       string
+    Questions []string
 }
 
 func main() {
-	me := Engineer{
-		Name:      "Alisina Karimi",
-		Based:     "Turin, Italy 🇮🇹  // flexible overlap with AU / US time zones",
-		Currently: "shipping prod systems for an Australia-based commerce company",
-		OpenTo:    "remote collaboration — Italian VAT contractor or EOR",
-		Bias:      []string{"simple contracts", "measured performance", "observable failure"},
-	}
-	me.Ship() // and leave the system easier to run than I found it
+    _ = Workbench{
+        Now: "shipping Go services and untangling production systems",
+        Questions: []string{
+            "where did the latency go?",
+            "what happens when this dependency is down?",
+            "can the next person operate it?",
+        },
+    }
 }
 ```
 
-> I like the unglamorous parts of software: the query path that stops timing out, the worker that
-> restarts safely, the integration that fails loudly instead of silently.
+## Now
 
-### current frequency
+- Go services for analytics, billing, asynchronous workflows, and commerce integrations.
+- A MariaDB to PostgreSQL migration that improved critical query performance by 3x to 10x and reduced infrastructure cost by about 60%.
+- AWS infrastructure with Terraform and Packer, Valkey-backed sessions, SQS workers, health checks, and repeatable deployments.
+- Open-source contributions across pgx, Valkey, golang-migrate, and Zed.
 
-```text
-prod   Go services · PostgreSQL migration · 3–10× query wins · ~60% infra-cost cut
-cloud  AWS ASG/ALB/SQS · Terraform/Packer · CI/CD · OpenTelemetry/Prometheus
-oss    contributions across Go · databases · observability · developer tooling
-lab    Forge · SignalForge · agent evals · security automation · privacy research
-```
+## Selected work
 
-### 🧰 my toolbox
+- [**StreamHive**](https://github.com/AliSinaDevelo/StreamHive): a Go library for content-addressed storage over TCP/TLS, with framing, peer identity, replication, repair, durable stores, and metrics.
+- [**news-api**](https://github.com/AliSinaDevelo/news-api): a TypeScript and Express service where caching, upstream failures, request coalescing, OpenAPI, telemetry, and deployment are part of the design.
+- [**Chatster**](https://github.com/AliSinaDevelo/Chatster): a small real-time chat system in Go, with WebSockets, SQLite history, bounded client queues, rate limits, metrics, and a measured load test.
+- [**Quorabust**](https://github.com/AliSinaDevelo/Quorabust): a Python duplicate-detection service that carries a model through training, calibration, lineage, serving, drift checks, and load testing.
+- [**Forge**](https://github.com/AliSinaDevelo/md-files): an installable Claude Code toolkit with agents, skills, commands, policy hooks, and evaluation tools.
 
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-&nbsp;
-![Symfony](https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+I also keep private work around security-agent workflows, detection replay, evidence handling, post-quantum transport, network measurement, federated learning, privacy accounting, MPC, and traffic analysis. Most of it stays private until there is a result worth showing.
 
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white)
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-&nbsp;
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000?style=flat-square&logo=opentelemetry&logoColor=white)
+## Tools
 
-### 🚀 things I've built
+Go · Python · TypeScript · PHP · Rust · SQL
 
-| | |
-|---|---|
-| 💬 [**Chatster**](https://github.com/AliSinaDevelo/Chatster) | real-time Go WebSocket chat — concurrent hub, SQLite history, metrics, a load-tested benchmark |
-| ⚡ [**news-api**](https://github.com/AliSinaDevelo/news-api) | hardened TypeScript/Express API — caching, validation, OpenAPI, K8s probes, SBOM-minded CI |
-| 🕸️ [**StreamHive**](https://github.com/AliSinaDevelo/StreamHive) | Go lib for distributed content-addressed storage over TCP — custom framing, replication |
-| 🧮 [**Quorabust**](https://github.com/AliSinaDevelo/Quorabust) | ML serving done right — XGBoost duplicate detection, FastAPI, metrics, model cards |
-| 🔨 [**Forge**](https://github.com/AliSinaDevelo/md-files) | installable Claude Code toolkit — agents, skills, slash commands, safety hooks, prompt evals |
-| 🛡️ **SignalForge** *(private)* | cross-LLM security lab — detection replay, scope-aware hooks, DFIR/RE. Walkthrough on request |
+PostgreSQL · Redis/Valkey · SQLite · AWS · Terraform · Docker · Kubernetes · Prometheus · OpenTelemetry
 
-### 🔬 research in progress
-
-| | |
-|---|---|
-| 🔐 **Lattice** *(private — public with first results)* | post-quantum TLS lab — does hybrid ML-KEM misbehave at real packet boundaries? preregistered netem study, reproducible harness |
-| 🐦 **Murmuration** *(private — public with first results)* | federated learning under realistic participation — do user-level DP claims survive real client churn? |
-
-<sub>Part of a longer privacy-systems research program — more to come as results land.</sub>
-
-### 📈 GitHub at a glance
-
-<!-- STATS:START -->
-`52` followers&nbsp;·&nbsp;`29` public repos&nbsp;·&nbsp;`23` stars earned
-<!-- STATS:END -->
-
-<sub>Refreshed by a GitHub Action from the GitHub API — no third-party services.</sub>
-
-### 🧭 how I build
-
-```mermaid
-flowchart LR
-    P([a problem]) --> C[a sharp contract]
-    C --> M[measure first]
-    M --> S[ship small]
-    S --> O[observe in prod]
-    O -->|fail loud, then iterate| C
-```
-
-<div align="center">
-<sub>📫 talk systems → <a href="mailto:alisinakarimi.2003@gmail.com">email</a> · <a href="https://www.linkedin.com/in/alisina-karimi-43a834224/">LinkedIn</a> · <a href="https://alisinadevelo.github.io">portfolio</a></sub>
-</div>
+The repositories above are a better description of how I work than a complete list of technologies I have touched.
