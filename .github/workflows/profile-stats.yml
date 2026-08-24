@@ -1,0 +1,102 @@
+name: Refresh GitHub snapshot
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-stats
+  cancel-in-progress: true
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Read public GitHub stats
+        env:
+          GH_TOKEN: ${{ github.token }}
+          USER: ${{ github.repository_owner }}
+        run: |
+          set -euo pipefail
+
+          repos_url="users/$USER/repos?per_page=100&type=owner"
+          repo_stars=$(gh api "$repos_url" --paginate \
+            --jq '.[] | select(.fork == false) | .stargazers_count')
+          repos=$(printf '%s\n' "$repo_stars" | awk '
+            NF { count++ }
+            END { print count + 0 }
+          ')
+          stars=$(printf '%s\n' "$repo_stars" | awk '
+            NF { total += $1 }
+            END { print total + 0 }
+          ')
+          followers=$(gh api "users/$USER" --jq '.followers')
+          graphql_query="query(\$login: String!) {
+            user(login: \$login) {
+              contributionsCollection {
+                contributionCalendar { totalContributions }
+              }
+            }
+          }"
+          contributions_jq='.data.user.contributionsCollection.contributionCalendar.totalContributions'
+          contributions=$(
+            gh api graphql \
+              -f login="$USER" \
+              -f query="$graphql_query" \
+              --jq "$contributions_jq"
+          )
+
+          for value in "$repos" "$stars" "$followers" "$contributions"; do
+            [[ "$value" =~ ^[0-9]+$ ]] || {
+              echo "GitHub API returned a non-numeric stat: $value" >&2
+              exit 1
+            }
+          done
+
+          python3 - "$repos" "$stars" "$followers" "$contributions" <<'PY'
+          import pathlib
+          import re
+          import sys
+
+          repos, stars, followers, contributions = (
+              int(value) for value in sys.argv[1:]
+          )
+          line = (
+              f"`{contributions:,}` contributions in the last year · "
+              f"`{repos:,}` original public repositories · "
+              f"`{stars:,}` stars across them · "
+              f"`{followers:,}` followers"
+          )
+
+          path = pathlib.Path("README.md")
+          text = path.read_text(encoding="utf-8")
+          updated, replacements = re.subn(
+              r"(<!-- STATS:START -->)\n.*?\n(<!-- STATS:END -->)",
+              lambda match: f"{match.group(1)}\n{line}\n{match.group(2)}",
+              text,
+              flags=re.S,
+          )
+          if replacements != 1:
+              raise SystemExit("expected exactly one stats block")
+          path.write_text(updated, encoding="utf-8")
+          PY
+
+      - name: Commit if changed
+        run: |
+          if ! git diff --quiet -- README.md; then
+            git config user.name "github-actions[bot]"
+            git config user.email \
+              "41898282+github-actions[bot]@users.noreply.github.com"
+            git add README.md
+            git commit -m "chore(profile): refresh GitHub snapshot"
+            git push
+          else
+            echo "snapshot unchanged"
+          fi

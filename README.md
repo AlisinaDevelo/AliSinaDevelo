@@ -20,7 +20,7 @@ benchmarks, and docs.
 package main
 
 type Workbench struct {
-    Current  string
+    Current   string
     Questions []string
 }
 
@@ -35,6 +35,14 @@ func main() {
     }
 }
 ```
+
+## GitHub snapshot
+
+<!-- STATS:START -->
+`4,531` contributions in the last year · `33` original public repositories · `30` stars across them · `53` followers
+<!-- STATS:END -->
+
+<sub>Updated weekly from GitHub's API. A profile snapshot, not a performance claim.</sub>
 
 ## The shelf
 
@@ -55,15 +63,15 @@ func main() {
 
 ## A few receipts
 
-Adjectives are cheap, so here are a few measurements from the workbench:
+The useful numbers are in behavior, outcomes, and shipped scope:
 
 - **Work:** a MariaDB to PostgreSQL migration improved critical query performance by 3x to 10x and reduced infrastructure cost by about 60%.
 - **Chatster:** the local fan-out harness delivered every message at 25 and 50 concurrent clients; p99 delivery latency was 5.7 ms and 57 ms respectively.
 - **LOOM:** the synthetic retrieval fixture recovered all 3 expected sources at rank one with anchor precision 1.0.
-- **Forge:** 382 tests and 333 of 334 deterministic evaluation checks pass; the remaining check is a warning, not hidden.
-- **CARTOGRAPH:** the last local gate covered 40 Vitest tests and 22 roadmap tests at 85.5% statement coverage.
+- **StreamHive:** a 3-node Compose acceptance demo converges after durable restart and repairs a deleted blob through anti-entropy.
+- **Forge:** 20 agents, 25 skills, and 22 commands packaged for Claude Code, Codex, and OpenCode, with policy hooks around the dangerous edges.
 
-These are repository-level checks and local measurements, not promises about every environment.
+These are tied to a documented fixture, demo, or migration context; they are not promises about every environment.
 
 ## Private shelf
 
