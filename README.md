@@ -56,9 +56,8 @@ func main() {
 
 ### Newer tools
 
-- [**STRATA**](https://github.com/AliSinaDevelo/STRATA) · alpha: compiler-backed TypeScript architecture change control with evidence graphs, semantic diffs, and offline reports.
 - [**LOOM**](https://github.com/AliSinaDevelo/LOOM) · pre-alpha: local-first Rust/Tauri retrieval over text and Markdown, with SQLite FTS5, BLAKE3 hashes, and exact source anchors.
-- [**CARTOGRAPH**](https://github.com/AliSinaDevelo/CARTOGRAPH) · pre-alpha: a TypeScript architecture graph scanner and Git revision diff tool that keeps evidence attached to relationships.
+- [**CARTOGRAPH**](https://github.com/AliSinaDevelo/CARTOGRAPH) · pre-alpha: a compiler-backed TypeScript architecture analyzer with deterministic graph snapshots, semantic Git diffs, evidence-linked reports, and policy boundaries.
 - [**GHOSTRACE**](https://github.com/AliSinaDevelo/GHOSTRACE) · fixture-only: a local macOS causal event journal with explicit gaps, bounded provenance, and evidence-backed explanations.
 
 ## A few receipts
