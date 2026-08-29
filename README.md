@@ -58,7 +58,7 @@ func main() {
 
 - [**LOOM**](https://github.com/AliSinaDevelo/LOOM) · pre-alpha: local-first Rust/Tauri retrieval over text and Markdown, with SQLite FTS5, BLAKE3 hashes, and exact source anchors.
 - [**CARTOGRAPH**](https://github.com/AliSinaDevelo/CARTOGRAPH) · pre-alpha: a compiler-backed TypeScript architecture analyzer with deterministic graph snapshots, semantic Git diffs, evidence-linked reports, and policy boundaries.
-- [**GHOSTRACE**](https://github.com/AliSinaDevelo/GHOSTRACE) · fixture-only: a local macOS causal event journal with explicit gaps, bounded provenance, and evidence-backed explanations.
+- [**GHOSTRACE**](https://github.com/AliSinaDevelo/GHOSTRACE) · incubation: a consent-gated macOS event provenance journal with bounded metadata, explicit gaps, and evidence-backed explanations.
 
 ## A few receipts
 
